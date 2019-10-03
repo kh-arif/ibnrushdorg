@@ -252,7 +252,7 @@ animation-delay: .8s;
 .theme-title p {
   font-size: 16px;
   width: 75%;
-  margin: 60px auto 0 auto;
+  margin: 30px auto 0 auto;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
 .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
@@ -430,6 +430,26 @@ animation-delay: .8s;
   text-align: center;
   border-width: 1px;
   text-transform: uppercase;
+}
+
+/***
+
+====================================================================
+  Theme title violet
+====================================================================
+
+ ***/
+.violet{
+    padding-top : 85px;
+}
+.title-violet{
+    text-align : center;
+}
+.p-violet{
+    font-family : 'Cairo', sans-serif;
+}
+.d-violet{
+    padding-top : 35px;
 }
 /***
 
@@ -1119,6 +1139,10 @@ animation-delay: .8s;
 #partner-section .item img {
   margin: 0 auto;
 }
+.h5-partner{
+    padding : 10px;
+    margin-top : -39px;
+}
 /***
 
 ====================================================================
@@ -1277,7 +1301,7 @@ animation-delay: .8s;
  ***/
 footer {
   margin: 100px 0 0 0;
-  background: #232a34;
+  background: black;
   padding: 60px 0 25px 0;
   text-align: center;
 }
