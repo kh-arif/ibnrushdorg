@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<span style="background-color:black"></span><!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -449,6 +449,22 @@
 					<p>By<i class="" aria-hidden="true"></i><a href="" target="_blank"></a> Abdullah Alshaher and Hamzah Alanzi and Khalid Al-Muqbel</p>
 				</div>
 			</footer>
+
+
+
+
+			<!-- =============================================
+				Loading Transition
+			============================================== -->
+			<div id="loader-wrapper">
+				<div id="preloader_1">
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	                <span></span>
+	            </div>
+			</div>
 
 
 	        <!-- Scroll Top Button -->
