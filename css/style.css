@@ -239,6 +239,7 @@ animation-delay: .8s;
 }
 .theme-title h2 {
   position: relative;
+  margin: 95px 0 0 0;
 }
 .theme-title h2:before {
   content: '';

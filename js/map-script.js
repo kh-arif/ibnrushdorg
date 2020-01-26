@@ -182,9 +182,9 @@ function goMap () {
 		    position: {lat: 40.925372, lng: -74.276544},
 		    map: map,
 		    icon: image,
-		    title:"BipPro Office!",
+		    title:"Here location",
 		    infoWindow: {
-	            content: '<h6>Bizpro office</h6> <p>Gazipur,Dhaka</p>'
+	            content: '<h6>Our location</h6> <p>Sakaka,Aljouf</p>'
 	          }
 		  });
   };
@@ -194,7 +194,7 @@ function goMap () {
 // Dom Ready Function
 jQuery(document).on('ready', function () {
 	(function ($) {
-		// add your functions
+		// add functions
 		goMap()
 	})(jQuery);
 });

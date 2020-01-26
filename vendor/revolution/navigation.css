@@ -1529,8 +1529,8 @@ website:    http://www.themepunch.com
 	background:#000;
 	background:rgba(0,0,0,0.5);
 	width:30px;
-	height:110px;
-	position:absolute;
+  height:110px;
+	/*position:absolute;*/
 	display:block;
 	z-index:100;
 }
