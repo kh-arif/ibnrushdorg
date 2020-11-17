@@ -20,11 +20,10 @@
 							<p>{{post.content|slice:":500" }}</p>
 							<div class="row">
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-									<p><i class="fa fa-quote-left" aria-hidden="true"></i>
+								<p><i class="fa fa-quote-left" aria-hidden="true"></i>
 								</div>
 							</div> <!-- /.row -->
 							<div class="clear-fix post-share-area">
-							<a herf="{% url 'post_detail' post.slug %}">للمزيد</a>
 								<ul class="share-icon float-left">
 									<li>مشاركة</li>
 									<li><a href="#" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -38,6 +37,7 @@
 								</ul>
 								<ul class="share-icon float-right">
 								<span>Posted by <a href="#" class="tran3s p-color">{{ post.author }}</a> {{ post.created_on}}</span>
+                                <a herf=" {% url 'post_detail' post.slug %}">للمزيد</a>
 								</ul>
                             </div> <!-- /post-share-area -->
                         </div> <!-- /.list-img-wrapper -->
