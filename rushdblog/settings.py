@@ -121,4 +121,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = 'rushd-org.herokuapp.com/static/'
+STATIC_ROOT = '/home/user/public_html/static'
+# path to directories containing static files for django project, apps, etc, css/js
+STATICFILES_DIRS = (
+    os.path.join(PROJECT_PATH, 'static'),
+)
+
+STATIC_URL = '/static/'
