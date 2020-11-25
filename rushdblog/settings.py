@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os 
-import django_heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,7 +20,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-
+that shows the distribution for number of backers
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'pg=-zoc#)3&w0=8f%u^z8fk_gnfsh=pmn!tr881iojy=yy(@v+'
 
