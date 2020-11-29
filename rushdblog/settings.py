@@ -20,7 +20,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-that shows the distribution for number of backers
+# that shows the distribution for number of backers
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'pg=-zoc#)3&w0=8f%u^z8fk_gnfsh=pmn!tr881iojy=yy(@v+'
 
