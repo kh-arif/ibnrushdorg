@@ -27,7 +27,7 @@ SECRET_KEY = 'pg=-zoc#)3&w0=8f%u^z8fk_gnfsh=pmn!tr881iojy=yy(@v+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rushd-org.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','rushd-org.herokuapp.com']
 
 
 # Application definition
@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'rushdblog.urls'
@@ -122,8 +125,21 @@ USE_TZ = True
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/staticfiles/'
+
 #Extra places for collectstatic to find static files.
 #STATICFILES_DIRS = (
     #os.path.join(BASE_DIR, 'static'),
 #)
 # django_heroku.settings(locals())
+
+
+AWS_ACCESS_KEY_ID = ('AKIAYSZGVEUBYFIZOP5J')
+AWS_SECRET_ACCESS_KEY = ('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')
+AWS_STORAGE_BUCKET_NAME = ('rushd-blog-files')
+
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None 
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
