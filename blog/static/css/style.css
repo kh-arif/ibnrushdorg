@@ -813,8 +813,8 @@ animation-delay: .8s;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(1) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(2) a {
-  color: #677fb5;
-  border-color:#677fb5;
+  color: #f7fb06;
+  border-color:#f7fb06;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(2) a,
@@ -825,8 +825,8 @@ animation-delay: .8s;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a {
-  color: #d8545d;
-  border-color:#d8545d;
+  color: #2bb849;
+  border-color:#2bb849;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a,
@@ -837,7 +837,7 @@ animation-delay: .8s;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(1) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(2) a:hover {
-  background: #677fb5;
+  background: #f7fb06;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(2) a:hover,
@@ -847,7 +847,7 @@ animation-delay: .8s;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a:hover {
-  background: #d8545d;
+  background: #2bb849;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a:hover,
@@ -970,68 +970,6 @@ animation-delay: .8s;
 /***
 
 ====================================================================
-  Pricing Section
-====================================================================
-
- ***/
-#pricing-section {
-  padding: 100px 0 100px 0;
-  background: #f3f3f3;
-  margin-top: 45px;
-}
-#pricing-section .single-price-table {
-  display: block;
-  background: #fff;
-  border:1px solid #dfdfdf;
-  text-align: center;
-  padding: 28px 0 22px 0;
-}
-#pricing-section .single-price-table p {
-  margin: 4px 0 20px 0;
-}
-#pricing-section .single-price-table strong {
-  font-weight: 700;
-  font-size: 24px;
-  color:#fff;
-  display: block;
-  padding: 23px 0;
-  margin-bottom: 30px;
-}
-#pricing-section .single-price-table strong span {
-  font-size: 14px;
-  vertical-align: middle;
-}
-#pricing-section .single-price-table strong.color1 {
-  background: #d6973d;
-}
-#pricing-section .single-price-table strong.color2 {
-  background: #375099;
-}
-#pricing-section .single-price-table strong.color3 {
-  background: #179680;
-}
-#pricing-section .single-price-table ul li {
-  line-height: 45px;
-}
-#pricing-section .single-price-table ul li:nth-child(odd) {
-  background: #f7f8f4;
-}
-#pricing-section .single-price-table a {
-  width: 150px;
-  line-height: 48px;
-  color:#fff;
-  text-transform: uppercase;
-  font-weight: 700;
-  border-width: 1px;
-  margin-top: 22px;
-  text-align : center;
-}
-#pricing-section .single-price-table a:hover {
-  background: #fff;
-}
-/***
-
-====================================================================
   Blog Section
 ====================================================================
 
@@ -1093,26 +1031,7 @@ animation-delay: .8s;
   color: #292929;
   text-align: center;
 }
-/***
 
-====================================================================
-  Partner Section
-====================================================================
-
- ***/
-#partner-section {
-  margin: 100px 0 0 0;
-  background: #f9f9f9;
-  padding: 50px 0;
-}
-#partner-section .item {
-  border:1px solid #dfdfdf;
-  height: 118px;
-  padding-top: 22px;
-}
-#partner-section .item img {
-  margin: 0 auto;
-}
 /***
 
 ====================================================================
@@ -1271,7 +1190,7 @@ animation-delay: .8s;
  ***/
 footer {
   margin: 100px 0 0 0;
-  background: #1e1e1e;
+  background: #232a34;
   padding: 60px 0 25px 0;
   text-align: center;
 }
@@ -1290,8 +1209,8 @@ footer ul li a {
   border:1px solid transparent;
 }
 footer ul li:nth-child(1) a {
-  color: #677fb5;
-  border-color:#677fb5;
+  color: #f7fb06;
+  border-color:#f7fb06;
   text-align: center;
 }
 footer ul li:nth-child(2) a {
@@ -1300,58 +1219,27 @@ footer ul li:nth-child(2) a {
   text-align: center;
 }
 footer ul li:nth-child(3) a {
-  color: #d8545d;
-  border-color:#d8545d;
+  color: #2bb849;
+  border-color:#2bb849;
   text-align: center;
 }
 footer ul li:nth-child(4) a {
-  color: #007ab9;
-  border-color:#007ab9;
-  text-align: center;
-}
-footer ul li:nth-child(5) a {
   color: #7c838c;
   border-color:#7c838c;
   text-align: center;
 }
-footer ul li:nth-child(6) a {
-  color: #0FA24F;
-  border-color:#0FA24F;
-  text-align: center;
-}
-footer ul li:nth-child(7) a {
-  color: #1a8cff;
-  border-color:#1a8cff;
-  text-align: center;
-}
-footer ul li:nth-child(8) a {
-  color: #faaa5e;
-  border-color:#faaa5e;
-  text-align: center;
 }
 footer ul li:nth-child(1) a:hover {
-  background: #677fb5;
+  background: #f7fb06;
 }
 footer ul li:nth-child(2) a:hover {
   background: #70c2e9;
 }
 footer ul li:nth-child(3) a:hover {
-  background: #d8545d;
+  background: #2bb849;
 }
 footer ul li:nth-child(4) a:hover {
-  background: #007ab9;
-}
-footer ul li:nth-child(5) a:hover {
   background: #7c838c;
-}
-footer ul li:nth-child(6) a:hover {
-  background: #0FA24F;
-}
-footer ul li:nth-child(7) a:hover {
-  background: #1a8cff;
-}
-footer ul li:nth-child(8) a:hover {
-  background: #faaa5e;
 }
 footer ul li a:hover {
   color:#fff !important;

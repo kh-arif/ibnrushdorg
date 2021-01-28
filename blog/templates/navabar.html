@@ -9,7 +9,7 @@
 		<!-- For Resposive Device -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>جمعية ابن رٌشد العلمية</title>
+		<title>نادي رُشد العلمي</title>
 
 		<!-- Favicon -->
         <link rel="icon" type="image/png" sizes="56x56" href="{% static 'images/logo/logogo.png'%}">
@@ -58,7 +58,7 @@
                                 </li>
                                 <li><a href="#contact-section">اتصل بنا</a></li>
                                 <li class="dropdown-holder"><a href="{% url 'blog_post' %}">المدونة</a>
-                                    <ul class="sub-menu">
+                                    {% comment %} <ul class="sub-menu">
                                         <li><a href="blog-details.html" class="tran3s">تفاصيل سريعة</a></li>
                                     </ul>
                                 <li><a href="#pricing-section">التبرعات</a></li>
@@ -67,7 +67,7 @@
                                 <li><a href="#team-section">الفرق</a></li>
                                 <li><a href="#project-section">المركز الإعلامي</a></li>
                                 <li><a href="#service-section">الخدمات</a></li>
-                                <li><a href="#about-us">عن الجمعية</a></li>
+                                <li><a href="#about-us">عن الجمعية</a></li> {% endcomment %}
                                 <li class="active"><a href="{% url 'home' %}">الرئيسية</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
@@ -107,14 +107,12 @@
                     <a href="{% url 'home'%}" class="logo"><img src="{% static 'images/logo/logogo.png'%}" alt="Logo"></a>
 
                     <ul>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tran3s round-border"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
                         <li><a href="#" class="tran3s round-border"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tran3s round-border"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tran3s round-border"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tran3s round-border"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+
+
                     </ul>
                     <p>khamuqbil@gmail.com <a href="https://khalid-spasce" class="tran3s p-color" target="_blank">Khalid Almuqbil</a></p>
             </footer>

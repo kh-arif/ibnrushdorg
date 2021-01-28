@@ -15,6 +15,7 @@ class Post(models.Model):
     content = models.TextField()
     created_on =models.DateTimeField(default = timezone.now)
     status = models.IntegerField(choices=STATUS, default=0)
+    image = models.ImageField(default ='default.jpg', upload_to ='image-pics')
 
 
 
