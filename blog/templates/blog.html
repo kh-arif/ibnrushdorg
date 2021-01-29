@@ -13,9 +13,10 @@
 					<div class="col-md-12">
                         {% for post in post_list %}
 						<div class="blog-details-post-wrapper">
-							<img src="{{ post.image.url }}" alt="Image">
+							<img src="{% static 'images/default.jpg'%}" alt="Image">
 							<div class="post-heading">
-								<h4>{{ post.title }}</h4>
+							<h4>{{ post.title }}</h4>
+							{% comment %} <img src="{{ post.image.url }}" alt="Image"> {% endcomment %}
 							</div> <!-- /.post-heading -->
 							<p>{{post.content|slice:":500" }}</p>
 							<div class="row">
