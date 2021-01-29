@@ -1049,7 +1049,12 @@ footer p {
 }
 .blog-details-post-wrapper .post-heading {
   padding-bottom: 25px;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 0px solid #dfdfdf;
+  margin-bottom: 25px;
+}
+.blog-details-post-wrapper .post-heading-1 {
+  padding-bottom: 45px;
+  border-bottom: 2px solid #dfdfdf;
   margin-bottom: 25px;
 }
 .blog-details-post-wrapper>h6 {
