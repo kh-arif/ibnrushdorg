@@ -182,7 +182,8 @@ animation-delay: .8s;
 .team-image {max-width: 100%; display: block;}
 .banner-image{
   vertical-align: middle;
-    height: inherit;
+  height: 38rem;
+  position: inherit;
 }
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;float : left;}
  input,textarea {outline: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
