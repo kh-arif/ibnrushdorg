@@ -167,7 +167,7 @@ animation-delay: .8s;
 .main-page-wrapper {
   overflow-x:hidden;
 }
- h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;text-align : center;}
+ h1,h2,h3,h4,h5,h6,p,ul { margin : 40px; padding : 5px; text-align : center;}
  h1,h2,h3,h4,h5,h6 {color:#292929; text-align : center;font-weight: 700;}
  h1 {font-size: 48px;}
  h2 {font-size: 36px;}
