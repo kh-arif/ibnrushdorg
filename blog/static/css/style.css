@@ -167,7 +167,7 @@ animation-delay: .8s;
 .main-page-wrapper {
   overflow-x:hidden;
 }
- h1,h2,h3,h4,h5,h6,p,ul { margin : 40px; padding : 5px; text-align : center;}
+ h1,h2,h3,h4,h5,h6,p,ul { margin : 0px; padding : 0px; text-align : center;}
  h1,h2,h3,h4,h5,h6 {color:#292929; text-align : center;font-weight: 700;}
  h1 {font-size: 48px;}
  h2 {font-size: 36px;}
@@ -239,6 +239,7 @@ animation-delay: .8s;
   font-size: 16px;
   width: 75%;
   margin: 60px auto 0 auto;
+  margin-bottom: 60px;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
 .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
