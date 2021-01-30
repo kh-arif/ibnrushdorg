@@ -915,9 +915,10 @@ footer p {
  ***/
 .inner-page-banner {
   background: url(../images/logo/newlogo.png) no-repeat center;
-  background-size: cover;
+  background-size: 800px;
   text-align: center;
   margin-bottom: 100px;
+  background-position-y: -25rem;
 }
 .inner-page-banner .opacity {
   height: 100%;

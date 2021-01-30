@@ -167,7 +167,7 @@ animation-delay: .8s;
 .main-page-wrapper {
   overflow-x:hidden;
 }
- h1,h2,h3,h4,h5,h6,p,ul { margin : 0px; padding : 0px; text-align : center;}
+ h1,h2,h3,h4,h5,h6,p,ul { margin : ; padding : ; text-align : center;}
  h1,h2,h3,h4,h5,h6 {color:#292929; text-align : center;font-weight: 700;}
  h1 {font-size: 48px;}
  h2 {font-size: 36px;}
@@ -179,8 +179,11 @@ animation-delay: .8s;
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;text-align : right;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
- img {max-width: 100%; display: block;}
-
+.team-image {max-width: 100%; display: block;}
+.banner-image{
+  vertical-align: middle;
+    height: inherit;
+}
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;float : left;}
  input,textarea {outline: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 
@@ -402,7 +405,12 @@ animation-delay: .8s;
 
  ***/
 .rev_slider_wrapper {
+  background: url(../images/logo/newlogo.png) no-repeat center;
   background: #303030;
+  background-size: 800px;
+  text-align: center;
+  margin-bottom: 100px;
+  background-position-y: -25rem;
 }
 .banner h1,.banner h6,.banner .project-button {
   color:#fff;
@@ -1247,9 +1255,10 @@ footer p {
  ***/
 .inner-page-banner {
   background: url(../images/logo/newlogo.png) no-repeat center;
-  background-size: cover;
+  background-size: 800px;
   text-align: center;
   margin-bottom: 100px;
+  background-position-y: -25rem;
 }
 .inner-page-banner .opacity {
   height: 100%;
