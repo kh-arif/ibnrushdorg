@@ -40,10 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
-    'storages',
-     'medical_blog',
-    'pharmacy_blog',
-    'medical_sc_blog'
+    'storages'
  ]
 
 MIDDLEWARE = [
