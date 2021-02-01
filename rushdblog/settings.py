@@ -27,7 +27,7 @@ SECRET_KEY = 'pg=-zoc#)3&w0=8f%u^z8fk_gnfsh=pmn!tr881iojy=yy(@v+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','rushd-org.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','rushd-org.herokuapp.com','www.rushdsc.org']
 
 
 # Application definition
