@@ -812,8 +812,8 @@ animation-delay: .8s;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(1) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(2) a {
-  color: #f7fb06;
-  border-color:#f7fb06;
+  color: #e91818;
+  border-color:#e91818;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(2) a,
@@ -836,7 +836,7 @@ animation-delay: .8s;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(1) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(2) a:hover {
-  background: #f7fb06;
+  background: #e91818;
   text-align: center;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(2) a:hover,
@@ -1208,8 +1208,8 @@ footer ul li a {
   border:1px solid transparent;
 }
 footer ul li:nth-child(1) a {
-  color: #f7fb06;
-  border-color:#f7fb06;
+  color: #e91818;
+  border-color:#e91818;
   text-align: center;
 }
 footer ul li:nth-child(2) a {
@@ -1228,7 +1228,7 @@ footer ul li:nth-child(4) a {
   text-align: center;
 }
 footer ul li:nth-child(1) a:hover {
-  background: #f7fb06;
+  background: #e91818;
 }
 footer ul li:nth-child(2) a:hover {
   background: #70c2e9;
