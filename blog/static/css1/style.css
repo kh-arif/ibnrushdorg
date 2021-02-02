@@ -169,7 +169,13 @@ animation-delay: .8s;
 }
 #note{
   margin: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+  hr{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border: 0;
+  border-top: 3px solid rgba(126, 121, 121, 0.835);
 }
  h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;text-align : center;}
  h1,h2,h3,h4,h5,h6 {color:#292929; text-align : center;font-weight: 700;}
@@ -178,7 +184,7 @@ animation-delay: .8s;
  h3 {font-size: 28px;}
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
- h6 {font-size: 18px;}
+ h6 {font-size: 18px; line-height: 1.6;}
  p {line-height: 26px;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;text-align : right;}

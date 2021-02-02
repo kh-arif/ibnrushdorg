@@ -175,7 +175,7 @@ animation-delay: .8s;
  h4 {font-size: 24px;}
  h5 {font-size: 22px;}
  h6 {font-size: 18px;}
- p {line-height: 26px;}
+ p {line-height: 30px;}
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;text-align : right;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
@@ -242,7 +242,7 @@ animation-delay: .8s;
 .theme-title p {
   font-size: 16px;
   width: 75%;
-  margin: 60px auto 0 auto;
+  margin: 35px auto 0 auto;
   margin-bottom: 60px;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
