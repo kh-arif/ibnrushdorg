@@ -1208,18 +1208,18 @@ footer ul li a {
   border:1px solid transparent;
 }
 footer ul li:nth-child(1) a {
-  color: #e91818;
-  border-color:#e91818;
+  color: #70c2e9;
+  border-color:hsl(199, 73%, 68%);
   text-align: center;
 }
 footer ul li:nth-child(2) a {
-  color: #70c2e9;
-  border-color:#70c2e9;
+  color: #2bb849;
+  border-color:#2bb849;
   text-align: center;
 }
 footer ul li:nth-child(3) a {
-  color: #2bb849;
-  border-color:#2bb849;
+  color: #7c838c;
+  border-color:#7c838c;
   text-align: center;
 }
 footer ul li:nth-child(4) a {
@@ -1228,13 +1228,13 @@ footer ul li:nth-child(4) a {
   text-align: center;
 }
 footer ul li:nth-child(1) a:hover {
-  background: #e91818;
-}
-footer ul li:nth-child(2) a:hover {
   background: #70c2e9;
 }
-footer ul li:nth-child(3) a:hover {
+footer ul li:nth-child(2) a:hover {
   background: #2bb849;
+}
+footer ul li:nth-child(3) a:hover {
+  background: #7c838c;
 }
 footer ul li:nth-child(4) a:hover {
   background: #7c838c;
