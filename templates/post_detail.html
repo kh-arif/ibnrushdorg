@@ -1,0 +1,41 @@
+{% extends 'navabar.html' %} {% block article %}
+{% load static %}
+
+<div class="container">
+  <div class="row">
+			<article class="blog-details-page">
+				<div class="container">
+					<div class="col-md-12">
+						<div class="blog-details-post-wrapper">
+							<img src="{{ post.image.url }}" alt="Image">
+							{% comment %} <img src="{% static 'images/default.jpg'%}" alt="Image"> {% endcomment %}
+							<div class="post-heading">
+							<h4>{{ post.title }}</h4>
+							</div> <!-- /.post-heading -->
+							<p>{{post.content}}</p>
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+									<p><i class="fa fa-quote-left" aria-hidden="true"></i>
+								</div>
+							</div> <!-- /.row -->
+							<div class="clear-fix post-share-area">
+							<a href="{% url 'post_detail' post.slug%}" class="more tran3s hvr-bounce-to-right">للمزيد</a>
+							<div class="post-heading-1">
+
+								<ul class="share-icon float-left">
+									<li>مشاركة</li>
+									<li><a href="#" class="tran3s round-border"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="tran3s round-border"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#" class="tran3s round-border"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>	
+									{% comment %} <li><a href="#" class="tran3s active">الطب,</a></li>
+									<li><a href="#" class="tran3s">التقنية ,</a></li>
+									<li><a href="#" class="tran3s">الهندسة,</a></li>
+									<li><a href="#" class="tran3s">القانون</a></li> {% endcomment %}
+								</ul>
+								<ul class="share-icon float-right">
+								<span>Posted by <a href="#" class="tran3s p-color">{{ post.author }}</a> {{ post.created_on}}</span>
+								</ul>
+                            </div> <!-- /post-share-area -->
+                        </div> <!-- /.list-img-wrapper -->
+
+{% endblock article %}
