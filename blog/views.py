@@ -1,5 +1,6 @@
 from django.views import generic
 from .models import Post
+# from medical_blog .models import MedicalPost
 from django.shortcuts import render
 
 def home(request):
@@ -14,3 +15,4 @@ class PostList(generic.ListView):
 class PostDetail(generic.DetailView):
     model = Post
     template_name = 'post_detail.html'
+
