@@ -159,7 +159,7 @@ animation-delay: .8s;
   body.light-theme{
     font-family: 'Cairo', sans-serif;
     font-weight: normal;
-    color:#6f6f6f;
+    color:rgb(0, 0, 0);
     font-size: 18px;
     position: relative;
     text-align: center;
@@ -926,7 +926,7 @@ animation-delay: .8s;
  ***/
 footer {
   margin: 100px 0 0 0;
-  background: #232a34;
+  background: rgba(49, 49, 49, 0.5);
   padding: 60px 0 25px 0;
   text-align: center;
 }

@@ -10,12 +10,6 @@
 			-->
 			<div class="container">
 			<div class="col-md-12">
-			{% comment %} <script>
-				function myFunction() {
-				var element = document.body;
-				element.classList.toggle("dark-mode");
-				}
-			</script> {% endcomment %}
 				<h2 class="text-violet"> نبذة عن قسم الحاسب </h2>
 				<div class="violet">
 					<div class="col-md-12">
@@ -35,7 +29,6 @@
 					<div class="col-md-12">
                         {% for post in post_list %}
 						<div class="blog-details-post-wrapper">
-							{% comment %} <img src="{% static 'images/default.jpg'%}" alt="Image"> {% endcomment %}
 							<img src="{{ post.image.url }}" alt="Image">
 							<div class="post-heading">
 							<h4>{{ post.title }}</h4>
@@ -56,10 +49,6 @@
 									<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://CodingForEntrepreneurs.com/" class="tran3s round-border"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
 									<li><a href="https://twitter.com/home?status=I'm%20going%20to%20learn%20to%20Code...%20Come%20build%20an%20web%20apsp%20with%20me!%20%23CFE%20and%20@justinmitchel%20http://codingforentrepreneurs.com/" class="tran3s round-border"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 									<li><a href="whatsapp://send?text=http://www.rushdsc.org/blogpost" class="tran3s round-border"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>	
-									{% comment %} <li><a href="#" class="tran3s active">الطب,</a></li>
-									<li><a href="#" class="tran3s">التقنية ,</a></li>
-									<li><a href="#" class="tran3s">الهندسة,</a></li>
-									<li><a href="#" class="tran3s">القانون</a></li> {% endcomment %}
 								</ul>
 								<ul class="share-icon float-right">
 								<span>Posted by <a href="#" class="tran3s p-color">{{ post.author }}</a> {{ post.created_on}}</span>
