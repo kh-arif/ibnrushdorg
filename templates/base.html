@@ -32,7 +32,7 @@
 
 	</head>
 
-	<body>
+	<body class="light-theme || dark-theme">
         <div class="main-page-wrapper">
 
 
@@ -92,7 +92,10 @@
                 </div>
 
             </div> <!--  /#banner -->
-
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span onclick="myFunction()" class="slider round"></span>
+                    </label>
             {% block content %}
             <!-- Content Goes here -->
             {% endblock content %}
@@ -112,7 +115,7 @@
                         <li><a href="#" class="tran3s round-border"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 
                     </ul>
-                    <p>Copyright @ 2020 All Rights Reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://khalid-spasc.com" target="_blank">Khalid Almuqbil</a></p>
+                    <p>Copyright @ 2020 All Rights Reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://kh-arif.github.io/khalid-space/" target="_blank">Khalid Almuqbil</a></p>
                 </div>
             </footer>
 
@@ -124,6 +127,12 @@
 
 
 		<!-- Js File_________________________________ -->
+        <script>
+                    function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-theme");
+                    }
+                </script>
 
 		<!-- j Query -->
 		<script type="text/javascript" src="{% static 'vendor/jquery.2.2.3.min.js'%}"></script>

@@ -168,7 +168,7 @@ animation-delay: .8s;
 }
   body.dark-theme {
     color: #eee;
-    background: #202020;
+    background: #1e1e1e;
   }
   body.dark-theme a h4 h2 h6 {
     color: #fff;

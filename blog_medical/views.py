@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .models import MedicalPost
 # Create your views here.
 
-class MedicalPostBlog(generic.ListView):
+class MedicalPostList(generic.ListView):
     queryset = MedicalPost
     template_name = 'medical_blog.html'
 
