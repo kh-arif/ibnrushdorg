@@ -1272,18 +1272,18 @@ footer ul li a {
   border:1px solid transparent;
 }
 footer ul li:nth-child(1) a {
-  color: #f7fb06;
-  border-color:#f7fb06;
-  text-align: center;
-}
-footer ul li:nth-child(2) a {
   color: #70c2e9;
   border-color:#70c2e9;
   text-align: center;
 }
-footer ul li:nth-child(3) a {
+footer ul li:nth-child(2) a {
   color: #2bb849;
   border-color:#2bb849;
+  text-align: center;
+}
+footer ul li:nth-child(3) a {
+  color: #7c838c;
+  border-color:#7c838c;
   text-align: center;
 }
 footer ul li:nth-child(4) a {
