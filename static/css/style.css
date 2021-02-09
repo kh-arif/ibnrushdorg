@@ -1292,13 +1292,13 @@ footer ul li:nth-child(4) a {
   text-align: center;
 }
 footer ul li:nth-child(1) a:hover {
-  background: #f7fb06;
-}
-footer ul li:nth-child(2) a:hover {
   background: #70c2e9;
 }
-footer ul li:nth-child(3) a:hover {
+footer ul li:nth-child(2) a:hover {
   background: #2bb849;
+}
+footer ul li:nth-child(3) a:hover {
+  background: #7c838c;
 }
 footer ul li:nth-child(4) a:hover {
   background: #7c838c;
