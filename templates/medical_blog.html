@@ -11,7 +11,7 @@
 			<article class="blog-details-page">
 				<div class="container">
 					<div class="col-md-12">
-                        {% for medicalpost in post_list %}
+                        {% for medicalPost in post_list %}
 						<div class="blog-details-post-wrapper">
 							{% comment %} <img src="{% static 'images/default.jpg'%}" alt="Image"> {% endcomment %}
 							<img src="{{ medicalpost.image_medi.url }}" alt="Image">
