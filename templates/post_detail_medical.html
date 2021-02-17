@@ -1,32 +1,25 @@
-{% extends "navabar.html" %} 
-{% block article %}
+{% extends 'navabar.html' %} {% block article %}
 {% load static %}
 
-
-			<!--
-			=====================================================
-				Blog Page Details
-			=====================================================
-			-->
+<div class="container">
+  <div class="row">
 			<article class="blog-details-page">
 				<div class="container">
 					<div class="col-md-12">
-                        {% for medicalpost in post_list %}
 						<div class="blog-details-post-wrapper">
+							<img src="{{ medicalpost.image.url }}" alt="Image">
 							{% comment %} <img src="{% static 'images/default.jpg'%}" alt="Image"> {% endcomment %}
-							<img src="{{ medicalpost.image_medi.url }}" alt="Image">
 							<div class="post-heading">
-							<h4>{{ medicalpost.title_medi }}</h4>
+							<h4>{{ mediaclpost.title_medi }}</h4>
 							</div> <!-- /.post-heading -->
-							<p>{{medicalpost.content_medi|slice:":500" }}</p>
+							<p>{{medicalpost.content_medi}}</p>
 							<div class="row">
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<p><i class="fa fa-quote-left" aria-hidden="true"></i>
 								</div>
 							</div> <!-- /.row -->
 							<div class="clear-fix post-share-area">
-							<a href="{% url 'post_detail_medical' medicalpost.slug_medi%}" class="more tran3s hvr-bounce-to-right"><button type="button" class="btn btn-success">للمزيد</button>
-</a>
+							<a href="{% url 'post_detail_medical' medicalpost.slug_medi%}" class="more tran3s hvr-bounce-to-right">للمزيد</a>
 							<div class="post-heading-1">
 
 								<ul class="share-icon float-left">
@@ -36,12 +29,9 @@
 									<li><a href="#" class="tran3s round-border"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>	
 								</ul>
 								<ul class="share-icon float-right">
-								<span>Posted by <a href="#" class="tran3s p-color">{{ mediaclpost.author_medi }}</a> {{ medicalpost.created_on_medi}}</span>
+								<span>Posted by <a href="#" class="tran3s p-color">{{ medicalpost.author_medi }}</a> {{ medicalpost.created_on_medi}}</span>
 								</ul>
                             </div> <!-- /post-share-area -->
                         </div> <!-- /.list-img-wrapper -->
-                        {% endfor %}
-                    </div> <!--/.col -->
-				</div> <!-- /.container -->
-			</article>
-{% endblock %}
+
+{% endblock article %}

@@ -11,21 +11,21 @@
 			<article class="blog-details-page">
 				<div class="container">
 					<div class="col-md-12">
-                        {% for medicalpost in post_list %}
+                        {% for pharpost in post_list %}
 						<div class="blog-details-post-wrapper">
 							{% comment %} <img src="{% static 'images/default.jpg'%}" alt="Image"> {% endcomment %}
-							<img src="{{ medicalpost.image_medi.url }}" alt="Image">
+							<img src="{{ pharpost.image_pahr.url }}" alt="Image">
 							<div class="post-heading">
-							<h4>{{ medicalpost.title_medi }}</h4>
+							<h4>{{ pharpost.title_phar }}</h4>
 							</div> <!-- /.post-heading -->
-							<p>{{medicalpost.content_medi|slice:":500" }}</p>
+							<p>{{pharpost.content_phar|slice:":500" }}</p>
 							<div class="row">
 								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 									<p><i class="fa fa-quote-left" aria-hidden="true"></i>
 								</div>
 							</div> <!-- /.row -->
 							<div class="clear-fix post-share-area">
-							<a href="{% url 'post_detail_medical' medicalpost.slug_medi%}" class="more tran3s hvr-bounce-to-right"><button type="button" class="btn btn-success">للمزيد</button>
+							<a href="{% url 'post_detail_phar' pharpost.slug_phar%}" class="more tran3s hvr-bounce-to-right"><button type="button" class="btn btn-success">للمزيد</button>
 </a>
 							<div class="post-heading-1">
 
@@ -36,7 +36,7 @@
 									<li><a href="#" class="tran3s round-border"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>	
 								</ul>
 								<ul class="share-icon float-right">
-								<span>Posted by <a href="#" class="tran3s p-color">{{ mediaclpost.author_medi }}</a> {{ medicalpost.created_on_medi}}</span>
+								<span>Posted by <a href="#" class="tran3s p-color">{{ pharpost.author_phar }}</a> {{ pharpost.created_on_phar}}</span>
 								</ul>
                             </div> <!-- /post-share-area -->
                         </div> <!-- /.list-img-wrapper -->
