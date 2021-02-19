@@ -11,10 +11,10 @@
 			<article class="blog-details-page">
 				<div class="container">
 					<div class="col-md-12">
-                        {% for pharpost in post_list %}
+                        {% for pharpost in pharpost_list %}
 						<div class="blog-details-post-wrapper">
 							{% comment %} <img src="{% static 'images/default.jpg'%}" alt="Image"> {% endcomment %}
-							<img src="{{ pharpost.image_pahr.url }}" alt="Image">
+							<img src="{{ pharpost.image_phar.url }}" alt="Image">
 							<div class="post-heading">
 							<h4>{{ pharpost.title_phar }}</h4>
 							</div> <!-- /.post-heading -->
@@ -26,7 +26,7 @@
 							</div> <!-- /.row -->
 							<div class="clear-fix post-share-area">
 							<a href="{% url 'post_detail_phar' pharpost.slug_phar%}" class="more tran3s hvr-bounce-to-right"><button type="button" class="btn btn-success">للمزيد</button>
-</a>
+							</a>
 							<div class="post-heading-1">
 
 								<ul class="share-icon float-left">

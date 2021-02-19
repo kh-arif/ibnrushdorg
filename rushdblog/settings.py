@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'storages',
-    'blog_medical'
+    'blog_medical',
+    'pharblog'
  ]
 
 MIDDLEWARE = [
